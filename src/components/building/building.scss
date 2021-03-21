@@ -1,0 +1,34 @@
+.building-outline{
+  background-color:'white';
+  height: auto;
+  border-style: double;
+
+  .building-inline{
+    display: flex;
+    height: auto;
+    position: inherit;
+
+    .space{
+      flex: 1;
+    }
+    .buttons{
+      background:rgb(31, 163, 224);
+      flex: 1;
+      display: flex;
+      height: 100%;
+      flex-direction: column-reverse;
+      position: inherit;
+
+    }
+    .elevators{
+      background:rgb(31, 163, 224);
+      flex: 3;
+      justify-content: space-evenly;
+      display: flex;
+      position: relative;
+      width: 100%;
+    }
+    
+  }
+}
+
